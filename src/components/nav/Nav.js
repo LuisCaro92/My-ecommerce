@@ -1,24 +1,37 @@
+import { BeakerIcon } from "@heroicons/react/24/solid";
 
+function Nav() {
 
-function Nav () {
+    let Links = [
+        { name : "Home"},
+        {name : "Profile"},
+        {name : "Setting"} 
+    ]
+    
 
-    return(
-        <div className="bg-blue-200">
-            <nav className="container w-full h-16 justify-between">
-                <div className="bg-red flex justify-between ">
-                <div className="flex m-5 ">
-                    <h1 className="ml-5">Logo</h1>
-                    <ul className="ml-5 flex justify-end float-right">
-                        <li className="ml-5">Home</li>
-                        <li className="ml-5">Profile</li>
-                        <li className="ml-5">Setting</li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
-
+  return (
+    <div className="shadow-md w-full">
+      <div className="md:px-10 py-4 px-7">
+        {/*logo */}
+        <div className="flex text-2xl cursor-pointer items-center gap-2">
+          <BeakerIcon className="w-7 h-7 text-blue-600" />
+          <span className="font-bold">Ecommerce</span>
         </div>
-    )
+        <div className="flex">
+          <ul className="flex pl-9 md:pl-0">
+            {Links.map(link=>(
+                <li className="">
+                    {link.name}
+                </li>
+            ))
+
+            }
+          </ul>
+          <button className="flex">Sing in</button>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Nav;
