@@ -4,8 +4,9 @@ import Nav from "../nav/Nav";
 function Home (){
 
     return(
-        <div>
+        <div className="bg-red">
             <Nav></Nav>
+            sgsg
         </div>
     )
 }
