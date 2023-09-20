@@ -1,13 +1,15 @@
 import './App.css';
+import Card from './components/card/Card';
 import Home from './components/home/Home';
 import Nav from './components/nav/Nav';
 
 function App() {
   return (
-    <div className="bg-red">
+    <div className="">
       <Nav/>
-      <div className="bg-indigo-600 w-full h-screen">
-
+      <div className="bg-indigo-600 w-full h-screen mt-20">
+        <Home/>
+      
       </div>
     </div>
   );
