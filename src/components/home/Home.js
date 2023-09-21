@@ -1,14 +1,22 @@
 function Home() {
   return (
-    <div className="">
-      <div className="container md mx-auto  bg-slate-50  items-center">
-        <div className="cols-2 flex mx-auto items-center justify-center">
-          <div className="cols-1 bg-red-600 w-200">
-          columna1
-          </div>    
-               
-          <div className="cols-1 bg-slate-800">
+    <div className="mt-20">
+      <div className="container mt-40">
+        <div className="grid grid-cols-1 m-10 gap-3 sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  items-center justify-center">
+          <div className=" bg-red-600 w-200 col-span-2">
+          <img  className="w-full" src="https://www.sportika.cl/wp-content/uploads/2023/04/B-500x500.jpg" />
+          </div>         
+          <div className=" bg-green-300">
                 columna2
+          </div>
+          <div className=" bg-yellow-300">
+                columna3
+          </div>
+          <div className=" bg-red-500">
+                columna3
+          </div>
+          <div className=" bg-gray-500">
+                columna3
           </div>
         </div>
       </div>
