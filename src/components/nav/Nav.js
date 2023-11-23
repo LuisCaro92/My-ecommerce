@@ -44,7 +44,7 @@ const  Nav = ()=> {
               </li>
             ))}
            <Link to="/Login">
-            <button className="btn bg-[#B5E6DB] text-black py-1 px-8 rounded-md sm:ml-8 sm:static">
+            <button className=" bg-[#B5E6DB] text-black py-1 px-8 rounded-md sm:ml-8 sm:static">
               Sign In
             </button>
             </Link>
