@@ -7,7 +7,7 @@ const Login = () => {
     <Fragment>
       <div className="bg-gray-800  justify-center min-h-screen py-20">
         <div className="mx-auto  flex container-center ">
-          <div className="flex w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
+          <div className="flex w-8/12 bg-[#e1f3ef] rounded-xl mx-auto shadow-lg overflow-hidden">
             <div
               className="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center"
               style={{
@@ -59,7 +59,7 @@ const Login = () => {
                 </div>
 
                 <div className="mt-10">
-                  <button className="active:scale-[.98] actiove:duration-75 transition-all hover:scale-[1.02] ease-in-out w-full  bg-slate-400 rounded-xl h-8 border border-solid border-gray-400 text-center text-white font-bold">
+                  <button className="active:scale-[.98] actiove:duration-75 transition-all hover:scale-[1.02] ease-in-out w-full  bg-[#3C3D50] rounded-xl h-8 border border-solid  text-center text-white font-bold">
                     Log in
                   </button>
                 </div>
@@ -67,7 +67,7 @@ const Login = () => {
                   <p className="text-center mb-3">¿Aún no estas registrado?</p>
                   <button
                     onClick={() => setShowModal(true)}
-                    className="active:scale-[.98] actiove:duration-75 transition-all hover:scale-[1.02] ease-in-out w-full  bg-purple-400 rounded-xl h-8 border border-solid border-gray-400 text-center text-white font-bold"
+                    className="active:scale-[.98] actiove:duration-75 transition-all hover:scale-[1.02] ease-in-out w-full  bg-[#727393] rounded-xl h-8 border border-solid border-gray-400 text-center text-white font-bold"
                   >
                     Crear cuenta nueva
                   </button>
