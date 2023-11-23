@@ -14,7 +14,7 @@ function Card() {
           Suplemento
         </h2>
         <div>
-          <span className="px-3 mr-4 py-1 rounded-full text-xs bg-gray-200">
+          <span className="px-3 mr-4  py-1 rounded-full text-xs bg-gray-200">
             Stock
           </span>
           <span className="px-3  py-1 rounded-full text-xs bg-gray-200">
