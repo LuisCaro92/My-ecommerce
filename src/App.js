@@ -8,6 +8,7 @@ import Login from './components/register/Login';
 function App() {
   return (
     
+    <div className='bg-[#3C3D50]'>
       <BrowserRouter>
       <Nav/>
       <Routes>
@@ -15,7 +16,8 @@ function App() {
       <Route path = "/Login" element ={<Login/>}/>
       </Routes>
       </BrowserRouter>
-  );
+</div>  
+);
 }
 
 export default App;

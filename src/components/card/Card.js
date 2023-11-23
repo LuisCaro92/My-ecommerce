@@ -3,12 +3,12 @@ import { HeartIcon } from "@heroicons/react/24/solid";
 function Card() {
   return (
   
-    <div className="bg-withe text-gray w-100 shadow-lg rounded-md overflow-hidden mt-10">
+    <div className="bg-[#B5E6DB] text-gray w-100 shadow-lg rounded-md overflow-hidden mt-10">
       <img
         className="w-full h-full object-cover"
         src="https://www.sportika.cl/wp-content/uploads/2023/04/B-500x500.jpg"
       />
-      <div className="p-5 flex flex-col gap-2 bg-slate-50">
+      <div className="p-5 flex flex-col gap-2 bg-[#B5E6DB]">
         <div className="flex items-center justify-between gap-2 ">
         <h2 className="font-semibold text-2xl overflow-ellipsis overflow-hidden whitespace-nowrap">
           Suplemento
