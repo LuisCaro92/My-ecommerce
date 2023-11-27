@@ -16,7 +16,7 @@ const Nav = () => {
             className="flex text-2xl cursor-pointer items-center gap-2"
           >
             <BeakerIcon className="w-7 h-7 text-[#B5E6DB]" />
-            <span className="font-bold text-white">Ecommerce</span>
+            <span className="font-bold text-white">EcomSport</span>
           </Link>
 
           {/* Menu */}

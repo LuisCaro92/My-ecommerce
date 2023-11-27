@@ -1,8 +1,9 @@
 import './App.css';
-import Home from './components/home/Home';
+import Productos from './components/home/Productos';
 import Nav from './components/nav/Nav';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './components/register/Login';
+import Home from './components/home/Home';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
       <Nav/>
       <Routes>
+      <Route path = "/Productos" element ={<Productos/>}/>
       <Route path = "/Home" element ={<Home/>}/>
       <Route path = "/Login" element ={<Login/>}/>
       </Routes>
